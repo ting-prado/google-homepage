@@ -1,0 +1,1 @@
+This project will be the first webpage that I will be making using git and external scripts instead of online html and css editors.
