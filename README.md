@@ -1,1 +1,1 @@
-This project will be the first webpage that I will be making using git and external scripts instead of online html and css editors.
+This project is the first webpage that I made using git and external scripts instead of online html and css editors. The goal of this project is to create a google homepage using html and css.

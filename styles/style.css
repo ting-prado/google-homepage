@@ -1,0 +1,74 @@
+#header-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: auto;
+}
+
+.header-items {
+    margin: 10px 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-items a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: inherit;
+}
+
+.header-items a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-items img {
+    filter: contrast(50%);
+}
+
+#apps-icon {
+    position: relative;
+    padding: 5px;
+}
+
+figcaption {
+    font-size: 14px !important;
+    text-align: center;
+    padding-top: 4px !important;
+    background: gray;
+    font-family: inherit;
+    width: 90px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    top: 48px;
+    right: 100px; 
+    visibility: hidden;
+}
+
+.apps-cont:hover{
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.apps-cont:hover figcaption {
+    visibility: visible;
+    transition-delay: 1s;
+}
+
+#sign-in {
+    background: rgb(61, 113, 255);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 85px;
+    height: 35px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#sign-in:hover {
+    opacity: 0.9;
+}
