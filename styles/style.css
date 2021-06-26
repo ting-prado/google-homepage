@@ -101,6 +101,10 @@ figcaption {
     padding-right: 15px;
 }
 
+#search-bar:hover {
+    box-shadow: 1px 3px 4px rgba(0,0,0,0.15);
+}
+
 #search {
     width: 100%;
     height: 25px;
