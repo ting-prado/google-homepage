@@ -1,3 +1,8 @@
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
 header {
     width: 100%;
 }
@@ -173,3 +178,47 @@ figcaption {
 .trans-link:hover {
     text-decoration: underline;
 }
+
+footer p {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 3rem;
+    padding-top: 14px;
+    padding-left: 24px;
+    padding-bottom: 16px;
+    background: rgba(236, 236, 236, 0.747);
+    color: rgb(117, 117, 117);
+    font-family: 'Roboto', sans-serif;
+    font-weight: thin;
+    font-size: 15px;
+}
+
+#footer-nav ul {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 90px) 150px 1fr repeat(3, 90px);
+    border-top: 1px solid rgba(214, 214, 214, 0.795);
+    height: 3rem;
+    justify-items: center;
+    align-items: center;
+}
+
+#footer-nav ul{
+    background-color:rgba(236, 236, 236, 0.747);
+}
+
+#footer-nav ul a {
+    text-decoration: none;
+    color:rgb(117, 117, 117);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: thin;
+}
+
+#footer-nav ul a:hover {
+    text-decoration: underline;
+}
+
