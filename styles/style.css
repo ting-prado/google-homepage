@@ -40,16 +40,17 @@ header {
 figcaption {
     font-size: 14px !important;
     text-align: center;
-    padding-top: 4px !important;
+    padding: 2px !important;
     background: gray;
     font-family: inherit;
-    width: 90px;
-    height: 20px;
+    width: 80px;
+    height: 16px;
     color: white;
     position: absolute;
     top: 48px;
     right: 100px; 
     visibility: hidden;
+    border-radius: 5px;
 }
 
 .apps-cont:hover{
@@ -76,6 +77,7 @@ figcaption {
 
 #sign-in:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 
 #logo-cont {
@@ -110,7 +112,7 @@ figcaption {
     margin-left: 5px; 
     color: rgb(158, 158, 158);
     vertical-align: center;
-    padding-top: 3px;
+    padding-top: 4px;
 }
 
 #search {
@@ -148,4 +150,26 @@ figcaption {
 #search-cat form input:hover {
     border:1px solid rgb(204, 204, 204);
     border-radius: 4px;
+    cursor: pointer;
+}
+
+#translation ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#translation ul li {
+    margin: 0 8px;
+    font-size: 13px;
+    font-family: arial;
+}
+
+.trans-link {
+    text-decoration: none;
+}
+
+.trans-link:hover {
+    text-decoration: underline;
 }
