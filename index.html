@@ -6,7 +6,7 @@
     <link href="styles/reset.css" type="text/css" rel="stylesheet">
     <title>Google</title>
     <link rel="shortcut icon" href="images/icons8-google-48.png">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -18,15 +18,19 @@
                 <li class="header-items apps-cont"><img id="apps-icon" src="images/apps_black_24dp.svg" alt="apps icon">
                     <figcaption>Google apps</figcaption></li>
                 <li class="header-items"><form action="#">
-                    <input id="sign-in" type="Submit" value="Sign in"></form></li>
+                    <input id="sign-in" type="submit" value="Sign in"></form></li>
             </ul>
         </nav>
     </header>
     <section>
         <div id="logo-cont"><img id="google-logo" src="images/GilbertBaker.gif" alt="pride month doodle"></div>
         <div id="search-bar">
-            <i class="fa fa-search" style="font-size: 20px; margin-left: 5px; color: rgb(158, 158, 158);"></i>
+            <i class="fa fa-search"></i>
             <input type="search" id="search" name="search">
+        </div>
+        <div id="search-cat">
+            <form id="google-search" action="#"><input type="submit" value="Google search"></form>
+            <form id="lucky-search" action="#"><input type="submit" value="I'm Feeling Lucky"></form>
         </div>
     </section>
 </body>
