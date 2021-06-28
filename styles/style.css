@@ -226,7 +226,6 @@ footer p {
     body {
         display: flex;
         flex-direction: column;
-        overflow-y: auto;
     }
 
     header {
@@ -262,6 +261,7 @@ footer p {
     }
 
     #sign-in {
+        padding-top: 4px;
         width: 105px;
         height: 42px;
         font-size: 24px;
@@ -305,7 +305,6 @@ footer p {
     html, body {
         max-width: 100%;
         overflow-x: hidden;
-        overflow-y: auto;
     }
 
     #sign-in {
@@ -326,7 +325,7 @@ footer p {
     }
 
     #google-logo {
-        transform: scale(0.65);
+        transform: scale(0.55);
         margin-bottom: -30px;
     }
 
@@ -364,7 +363,6 @@ footer p {
     html, body {
         max-width: 100%;
         overflow-x: hidden;
-        overflow-y: auto;
     }
     
     #header-nav ul {
@@ -378,6 +376,10 @@ footer p {
 
     #logo-cont {
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
     }
 
     #search-cat form input {
@@ -402,9 +404,11 @@ footer p {
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: landscape) {
-    body {
-        overflow-x: hidden;
-        overflow-y: auto;
+    #logo-cont {
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
     }
 
     #google-logo {
