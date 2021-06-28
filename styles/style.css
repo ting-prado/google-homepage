@@ -12,7 +12,6 @@ header {
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    flex: 1;
 }
 
 .header-items {
@@ -38,8 +37,12 @@ header {
 }
 
 #apps-icon {
-    position: relative;
     padding: 5px;
+}
+
+.apps-cont {
+    position: relative;
+    height: auto;
 }
 
 figcaption {
@@ -52,8 +55,8 @@ figcaption {
     height: 16px;
     color: white;
     position: absolute;
-    top: 48px;
-    right: 100px; 
+    top: 40px;
+    right: -25px; 
     visibility: hidden;
     border-radius: 5px;
 }
@@ -220,5 +223,60 @@ footer p {
 
 #footer-nav ul a:hover {
     text-decoration: underline;
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    #header-nav ul {
+        padding-top: 10px;
+        height: auto;
+    }
+
+    .header-items {
+        margin-right: 25px;
+    }
+
+    .header-items a {
+        font-size: 25px;
+    }
+
+    .apps-cont {
+        width: 48px;
+        height: 48px;
+    }
+
+    #apps-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    figcaption {
+        top: 50px;
+        right: -15px;
+    }
+
+    #sign-in {
+        width: 105px;
+        height: 45px;
+        font-size: 25px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logo-cont {
+        margin-top: 50px;
+    } 
 }
 
