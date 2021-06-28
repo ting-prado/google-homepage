@@ -225,8 +225,6 @@ footer p {
 @media screen and (min-device-width:768px) and (max-device-width: 1024px) and (orientation: portrait) {
     body {
         min-height: 100vh;
-        display: flex;
-        flex-direction: column;
     }
 
     header {
@@ -276,11 +274,6 @@ footer p {
         font-size: 1em !important;
     }
 
-    section {
-        display: flex;
-        flex-direction: column;
-    }
-
     #logo-cont {
         margin-top: 50px;
     }
@@ -311,12 +304,6 @@ footer p {
 
     #sign-in {
         padding-top: 4px;
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     #logo-cont {
