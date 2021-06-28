@@ -267,6 +267,14 @@ footer p {
         font-size: 24px;
     }
 
+    #search-cat form input {
+        font-size: 1em;
+    }
+
+    #translation li {
+        font-size: 1em !important;
+    }
+
     section {
         display: flex;
         flex-direction: column;
@@ -274,7 +282,23 @@ footer p {
 
     #logo-cont {
         margin-top: 50px;
-    } 
+    }
+
+    footer p {
+        padding-top: 0.6em;
+        bottom: 3.5rem;
+        font-size: 1em;
+        padding-left: 1em;
+    }
+
+    #footer-nav ul {
+        height: 4rem;
+    }
+
+    #footer-nav ul a {
+        font-size: 1em;
+        margin: 0 0.3rem;
+    }
 }
 
 @media screen and (max-device-width: 767px) and (orientation: portrait) {
@@ -301,8 +325,8 @@ footer p {
     }
 
     #google-logo {
-        transform: scale(0.6);
-        margin: 0;
+        transform: scale(0.65);
+        margin-bottom: -30px;
     }
 
     #search-bar {
@@ -335,17 +359,78 @@ footer p {
     }
 }
 
-@media screen and (max-device-width: 400px) and (max-device-height: 568px) {
+@media screen and (max-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) {
     #header-nav ul {
         box-sizing: border-box;
         margin-bottom: -30px;
     }
 
+    #google-logo {
+        transform: scale(0.55);
+    }
+
     #logo-cont {
-        margin-bottom: -35px;
+        margin-bottom: 20px;
     }
 
     #search-cat form input {
         font-size: 0.9em;
+    }
+
+    footer p {
+        padding-top: 0.6em;
+        bottom: 3.5rem;
+        font-size: 0.8em;
+        padding-left: 1em;
+    }
+
+    #footer-nav ul {
+        height: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        justify-content: center;
+        align-content: space-around;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: landscape) {
+    body {
+        height: 100vh;
+    }
+
+    #google-logo {
+        margin-top: -30px;
+        transform: scale(0.8);
+    }
+
+    #search-bar {
+        width: 80%;
+    }
+
+    footer {
+        position: absolute;
+        bottom: -140px;
+        width: 100%;
+    }
+
+    footer p {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        bottom: 3.5rem;
+        font-size: 0.8em;
+        padding-left: 3em;
+        bottom: 2rem;
+    }
+
+    #footer-nav ul {
+        height: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        justify-content: space-around;
+        align-content: space-around;
+        box-sizing: border-box;
+        font-size: 0.8em;
     }
 }
