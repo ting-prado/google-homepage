@@ -225,7 +225,7 @@ footer p {
     text-decoration: underline;
 }
 
-@media screen and (min-width:768px) and (max-width: 1024px) {
+@media screen and (min-device-width:768px) and (max-device-width: 1024px) and (orientation: portrait) {
     body {
         display: flex;
         flex-direction: column;
@@ -246,7 +246,62 @@ footer p {
     }
 
     .header-items a {
-        font-size: 25px;
+        font-size: 24px;
+    }
+
+    .apps-cont {
+        width: 48px;
+        height: 48px;
+    }
+
+    #apps-icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    figcaption {
+        top: 50px;
+        right: -15px;
+    }
+
+    #sign-in {
+        width: 105px;
+        height: 42px;
+        font-size: 24px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logo-cont {
+        margin-top: 50px;
+    } 
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1280px) and (orientation: portrait) { 
+    body {
+        display: flex;
+        flex-direction: column;
+        max-height: 100vh;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    #header-nav ul {
+        padding-top: 10px;
+        height: auto;
+    }
+
+    .header-items {
+        margin-right: 25px;
+    }
+
+    .header-items a {
+        font-size: 24px;
     }
 
     .apps-cont {
@@ -267,16 +322,79 @@ footer p {
     #sign-in {
         width: 105px;
         height: 45px;
-        font-size: 25px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-device-width: 767px) and (orientation: portrait) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    #sign-in {
+        padding-top: 4px;
     }
 
     section {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     #logo-cont {
-        margin-top: 50px;
-    } 
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    #google-logo {
+        transform: scale(0.6);
+        margin: 0;
+    }
+
+    #search-bar {
+        width: 80%;
+    }
+
+    footer {
+        max-width: 100%;
+    }
+
+    footer p {
+        padding-top: 0.6em;
+        bottom: 3.5rem;
+        font-size: 0.8em;
+        padding-left: 1em;
+    }
+
+    #footer-nav ul {
+        height: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        justify-content: center;
+        align-content: space-around;
+    }
+
+    #footer-nav ul a {
+        font-size: 0.8em;
+        margin: 0 0.3rem;
+    }
 }
 
+@media screen and (max-device-width: 320px) and (max-device-height: 568px) {
+    #header-nav ul {
+        box-sizing: border-box;
+        margin-bottom: -30px;
+    }
+
+    #logo-cont {
+        margin-bottom: -35px;
+    }
+
+    #search-cat form input {
+        font-size: 0.9em;
+    }
+}
