@@ -224,7 +224,7 @@ footer p {
 
 @media screen and (min-device-width:768px) and (max-device-width: 1024px) and (orientation: portrait) {
     body {
-        max-height: 100vh;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
     }
@@ -304,7 +304,7 @@ footer p {
 
 @media screen and (min-device-width: 321px) and (max-device-width: 767px) and (orientation: portrait) {
     html, body {
-        max-height: 100vh;
+        min-height: 100vh;
         max-width: 100%;
         overflow-x: hidden;
     }
@@ -363,7 +363,7 @@ footer p {
 
 @media screen and (max-device-width: 320px) and (orientation: portrait) {
     html, body {
-        max-height: 100vh;
+        min-height: 100vh;
         max-width: 100%;
         overflow-x: hidden;
     }
