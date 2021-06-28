@@ -226,7 +226,7 @@ footer p {
     body {
         display: flex;
         flex-direction: column;
-        max-height: 100vh;
+        overflow-y: auto;
     }
 
     header {
@@ -305,6 +305,7 @@ footer p {
     html, body {
         max-width: 100%;
         overflow-x: hidden;
+        overflow-y: auto;
     }
 
     #sign-in {
@@ -360,6 +361,12 @@ footer p {
 }
 
 @media screen and (max-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    
     #header-nav ul {
         box-sizing: border-box;
         margin-bottom: -30px;
@@ -396,7 +403,8 @@ footer p {
 
 @media screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: landscape) {
     body {
-        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
     #google-logo {
