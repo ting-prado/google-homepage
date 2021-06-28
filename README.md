@@ -17,6 +17,7 @@ Skills Emphasized in this Project:
 -Flexbox and grid usage
 -Familiarity in css attributes
 -Box model mastery
+-Responsive web designing
 
 Conclusion:
-    Throughout the project, I've deepen my understanding with how efficiently should the elements be contained and how to properly select them in css. I've also familiarized myself with the css attributes and style my elements the way I want it to. All in all, the objectives of the project were met and the skills were realized.
+    Throughout the project, I've deepen my understanding with how efficiently should the elements be contained and how to properly select them in css. I've also familiarized myself with the css attributes and style my elements the way I want it to. I've also managed to make the page responsive, making it presentable in mobile and tablet devices. All in all, the objectives of the project were met and the skills were realized.
